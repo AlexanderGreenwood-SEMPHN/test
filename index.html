@@ -20,7 +20,7 @@
   domain: "dev-semphn.au.auth0.com",
   clientId: "G1OuRKYmKv17vT0hMzJ4ynT20q4pbb18",
   authorizationParams: {
-    redirect_uri: window.location.origin
+    redirect_uri: window.location.origin+`/test`
   }
 }).then(async (auth0Client) => {
   // Assumes a button with id "login" in the DOM
