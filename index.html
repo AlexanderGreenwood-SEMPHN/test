@@ -55,6 +55,7 @@
     profileElement.style.display = "block";
     profileElement.innerHTML = `
             <p>${userProfile.name}</p>
+                        <p>${JSON.stringify(userProfile)}</p>
             <img src="${userProfile.picture}" />
           `;
   } else {
